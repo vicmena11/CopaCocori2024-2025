@@ -1,0 +1,25 @@
+table {
+    width: 80%; /* Ancho de la tabla */
+    margin: 20px auto; /* Centra la tabla */
+    border-collapse: collapse; /* Colapsa los bordes */
+    background-color: #ffffff; /* Fondo blanco para la tabla */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra más suave para la tabla */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Evita el desbordamiento del borde redondeado */
+}
+
+th, td {
+    padding: 12px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Bordes de las celdas */
+    text-align: left; /* Alineación de texto */
+}
+
+th {
+    background-color: #007bff; /* Color de fondo de los encabezados */
+    color: white; /* Color de texto de los encabezados */
+    font-weight: bold; /* Negrita para encabezados */
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1; /* Color al pasar el ratón sobre las filas */
+}
